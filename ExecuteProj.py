@@ -13,8 +13,8 @@ if __name__ == '__main__':
     target_ui_lib = target_dir + "\\" + "UIFirmware\Lib\libqrencode\IAR_project\libqrencode.ewp"
     target_ui = target_dir + "\\" + "UIFirmware\IAR_project\GrasebyC9_UI.ewp"
 
-    # buildIarProj.build(target_safety, "Debug")
-    # buildIarProj.build(target_main_boot, "Release")
+    buildIarProj.build(target_safety, "Debug")
+    buildIarProj.build(target_main_boot, "Release")
     buildIarProj.build(target_main, "Release")
     # buildIarProj.build(target_ui_boot, "Release")
     # buildIarProj.build(target_ui_gui, "Release")

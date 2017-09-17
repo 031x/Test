@@ -15,7 +15,7 @@ if __name__ == '__main__':
 
     # buildIarProj.build(target_safety, "Debug")
     # buildIarProj.build(target_main_boot, "Release")
-    # buildIarProj.build(target_main, "Release")
+    buildIarProj.build(target_main, "Release")
     # buildIarProj.build(target_ui_boot, "Release")
     # buildIarProj.build(target_ui_gui, "Release")
     # buildIarProj.build(target_ui_lib, "Release")
